@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*===============================
+	Entry Content
+	===============================*/
+
+.entry-content {
+}
+
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6 {
+}
+
+.entry-content p {
+}
+
+.entry-content ul,
+.entry-content ol {
+}
+
+.entry-content li {
+}
+
+.entry-content blockquote {
+}
+
+.entry-content a {
+}
+
+.entry-content a:hover {
+}
+
+.entry-content a:active {
+}
+
+.entry-content img {
+	max-width: 100%;
+	height: auto;
+	margin: 0 0 1rem;
+}
+
+.entry-content img.alignright,
+.entry-content a img.alignright {
+	float: right; 
+	margin: 0 0 1rem 1rem
+}
+
+.entry-content img.alignleft,
+.entry-content a img.alignleft {
+    float: left; 
+    margin: 0 1rem 1rem 0
+}
+
+.entry-content img.aligncenter,
+.entry-content a img.aligncenter {
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto
+}
+
+.entry-content iframe {
+	max-width: 100%;
+	margin: 0 0 1rem;
+}
+
+/* ======= Entry Content - Tablet+ ======= */
+
+@media (min-width: 768px) {
+	
+	.entry-content img.alignright,
+	.entry-content a img.alignright {
+		margin: 0 0 1rem 1.5rem
+	}
+	
+	.entry-content img.alignleft,
+	.entry-content a img.alignleft {
+		float: left; margin: 0 1.5rem 1rem 0
+	}
+
+}
+
+/* ======= Entry Content - Desktop+ ======= */
+	
+@media (min-width: 992px) {
+	
+	.entry-content img.alignright,
+	.entry-content a img.alignright {
+		margin: 0 0 1rem 2rem
+	}
+	
+	.entry-content img.alignleft,
+	.entry-content a img.alignleft {
+		float: left; margin: 0 2rem 1rem 0
+	}
+
+}
